@@ -1,0 +1,25 @@
+ DOCUMENTATION FILE :- BOOTH'S ALGORITHM
+
+1.) INPUT:- 
+ * n= no. of bits 
+* md= multiplicand
+* mr=multiplier
+2.) INITIALIZATION:-
+* A=0
+*Q0=0
+*Q=binary representation of mr
+*MD=Binary representation of the multiplicand (md).
+3.) OUTPUT:-
+* Binary representation of multiplicand and multiplier.
+* Table representing binary representation of A, Q and Q0 at each step of process.
+* Binary representation of the final answer.
+* Final answer in decimal. 
+4.) ASSUMPTIONS:-
+* No. of bits, i.e. , n is important as an input to specify the length of binary strings A, Q and MD and hence the range of multiplier and multiplicand. 
+* Range of the Multiplier (mr) can be : -(2^(n-1)) to (2^(n-1)-1)
+* Range of the Multiplicand(md) can be : -(2^(n-1)-1) to (2^(n-1)-1)
+For ex:- for n=4, the range of md = (-7 to 7) and range of mr = (-8 to 7)
+* All the integers in the given range are allowed.
+
+Note :- The final answer in decimal is printed by converting the final binary represented output string (AQ) and not by simply           multiplying mr and md. 
+          Therefore, it is verified that the output binary string is correct. 
